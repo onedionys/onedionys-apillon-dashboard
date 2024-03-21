@@ -1,0 +1,228 @@
+.progress {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background-color: #F2F2F2;
+}
+.bar {
+	background-color: #819FF7;
+	width: 0%;
+	height: 5px;
+	border-radius: 3px;
+}
+.percent {
+	position: absolute;
+	display: inline-block;
+	top: 3px;
+	left: 48%;
+}
+.custom-border-primary {
+	border: 1px solid #6777EF;
+}
+.show-content {
+	display: block;
+}
+.hide-content {
+	display: none;
+}
+.cursor-pointer {
+	cursor: pointer;
+}
+.cursor-not-allowed {
+	cursor: not-allowed;
+}
+table tbody .table-middle td {
+	vertical-align: middle;
+}
+table tbody .table-middle td a i {
+	padding-top: 8.6px;
+}
+#overlay{	
+	position: fixed;
+	top: 0;
+	z-index: 100;
+	width: 100%;
+	height:100%;
+	display: none;
+	background: rgba(0,0,0,0.6);
+}
+.cv-spinner {
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;  
+}
+.spinner {
+	width: 40px;
+	height: 40px;
+	border: 4px #ddd solid;
+	border-top: 4px #2e93e6 solid;
+	border-radius: 50%;
+	animation: sp-anime 0.8s infinite linear;
+}
+@keyframes sp-anime {
+	100% { 
+		transform: rotate(360deg); 
+	}
+}
+.is-hide{
+	display:none;
+}
+.wspace-nwrap {
+	white-space: nowrap;
+}
+.min-height-auto {
+	min-height: auto !important;
+}
+.spin-on {
+	-moz-animation : animaputar 2s infinite linear;
+	-webkit-animation : animaputar 2s infinite linear;
+}
+@-moz-keyframes animaputar {
+	0% {
+		-moz-transform:rotate(0deg);
+	}
+	100% {
+		-moz-transform:rotate(-360deg);
+	}
+}
+@-webkit-keyframes animaputar {
+	0% {
+		-webkit-transform:rotate(0deg);
+	}
+	100%{
+		-webkit-transform:rotate(-360deg);
+	}
+}
+.loader {
+	position: fixed;
+	left: 50%;
+	top: 50%;
+	z-index: 9999;
+	border: 10px solid #f3f3f3;
+	border-radius: 50%;
+	border-top: 10px solid #3498db;
+	width: 50px;
+	height: 50px;
+	-webkit-animation: spin 2s linear infinite;
+	animation: spin 2s linear infinite;
+}
+@-webkit-keyframes spin {
+	0% {
+		-webkit-transform: rotate(0deg);
+	}
+	100% {
+		-webkit-transform: rotate(360deg);
+	}
+}
+
+@keyframes spin {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}
+.custom-file-input:lang(en)~.custom-file-label::after {
+	content: "Jelajahi";
+}
+#simple-map iframe {
+	width: 100%;
+	height: 100%;
+}
+.pricing-padding {
+	padding-right: 20px !important;
+	padding-left: 20px !important;
+}
+.custom-file {
+	overflow: hidden;
+}
+.width-100 {
+	width: 100% !important;
+}
+.height-125 {
+	height: 125px !important;
+}
+.slidercaptcha {
+	margin: 0 auto;
+	width: 314px;
+	height: 286px;
+	border-radius: 4px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.125);
+	margin-top: 40px;
+}
+.slidercaptcha .card-body {
+	padding: 1rem;
+}
+.slidercaptcha canvas:first-child {
+	border-radius: 4px;
+	border: 1px solid #e6e8eb;
+}
+.slidercaptcha.card .card-header {
+	background-image: none;
+	background-color: rgba(0, 0, 0, 0.03);
+}
+.refreshIcon {
+	top: -54px;
+}
+.notification-icon--fixed {
+	position: relative;
+	color: #fff;
+	background-color: #47c363;
+	border-radius: 50%;
+	font-family: "Roboto";
+	line-height: 0;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	padding: 10px;
+}
+.notification-icon--fixed::after {
+	content: "";
+	display: block;
+	padding-bottom: 100%;
+	color: #fff;
+}
+.notification-icon--fixed small i {
+	color:  #fff;
+}
+.borderless {
+	border-top: 0 none !important;
+}
+.custom-th-angular {
+	font-weight: bold;
+	vertical-align: middle !important;
+}
+.padding-table-5 {
+	padding-left: 5px !important;
+	padding-right: 5px !important;
+}
+.input-required:after {
+	content: " *";
+	color: #FC544B;
+}
+.custom-background {
+	background: url('../../img/default/background.png');
+	background-repeat: repeat;
+	background-attachment: fixed;
+	width: 100%;
+	max-height: 100%;
+}
+.middle-text {
+	vertical-align: middle !important;
+}
+.no-outline {
+	outline: none !important;
+}
+.select2-container--default.select2-container--disabled .select2-selection--single {
+	background-color: #e9ecef;
+	cursor: default;
+}
+.form-control:disabled, .form-control[readonly] {
+	background-color: #e9ecef;
+	cursor: default;
+}
